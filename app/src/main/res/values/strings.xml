@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Hello Android</string>
+    <string name="text_hello">Hello!\nPlease enter your keyword</string>
+    <string name="text_entered">You entered:</string>
+    <string name="button_back">Back</string>
+    <string name="button_search">Open as link</string>
+    <string name="button_check">Check!</string>
 </resources>

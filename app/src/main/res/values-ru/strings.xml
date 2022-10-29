@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Привет Андроид</string>
+    <string name="text_hello">Привет!\nПожалуйста, введите слово:</string>
+    <string name="button_check">Проверить!</string>
+    <string name="text_entered">Вы ввели:</string>
+    <string name="button_back">Назад</string>
+    <string name="button_search">Открыть как ссылку</string>
+</resources>

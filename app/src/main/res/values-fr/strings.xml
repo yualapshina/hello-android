@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Bonjour Android</string>
+    <string name="text_hello">Bonjour!\nVeuillez entrer votre mot:</string>
+    <string name="button_check">Vérifier!</string>
+    <string name="text_entered">"Vous avez entré: "</string>
+    <string name="button_back">Retour</string>
+    <string name="button_search">Ouvrir comme un lien</string>
+</resources>

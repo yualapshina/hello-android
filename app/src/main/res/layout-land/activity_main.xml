@@ -4,51 +4,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ResultActivity">
+    tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/text_entered"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="110dp"
-        android:textSize="20sp"
-        android:text="@string/text_entered"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
-    <TextView
-        android:id="@+id/keyword"
+        android:id="@+id/text_hello"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="150dp"
-        android:layout_marginEnd="30dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/text_hello"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <Button
-        android:id="@+id/button_back"
+
+    <EditText
+        android:id="@+id/keyword"
         android:layout_width="200dp"
         android:layout_height="60dp"
-        android:layout_marginTop="300dp"
-        android:text="@string/button_back"
-        android:onClick="getMainActivity"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="160dp"
+        android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
-        android:id="@+id/button_search"
+        android:id="@+id/button_check"
         android:layout_width="200dp"
         android:layout_height="60dp"
-        android:layout_marginTop="380dp"
-        android:text="@string/button_search"
-        android:onClick="search"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="30dp"
+        android:onClick="getResultActivity"
+        android:text="@string/button_check"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
